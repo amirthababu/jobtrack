@@ -1,0 +1,141 @@
+.ai-page {
+  min-height: calc(100vh - 70px);
+  background: #f5f7fb;
+  padding: 40px 20px;
+}
+
+.ai-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ai-container h1 {
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.ai-subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.profile-skills {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.profile-skills h3 {
+  margin-top: 0;
+}
+
+.profile-skills p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.job-description-section {
+  margin-bottom: 20px;
+}
+
+.job-description-section label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.job-description-section textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.job-description-section textarea:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.analyze-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 7px;
+  background: #222;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.analyze-button:hover {
+  background: #444;
+}
+
+.ai-message {
+  margin-top: 20px;
+  color: #c62828;
+}
+
+.ai-result {
+  margin-top: 30px;
+}
+
+.match-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+}
+
+.match-card h2 {
+  font-size: 42px;
+  margin: 0;
+}
+
+.match-card p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+.skills-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.skills-section > div {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.skills-section h3 {
+  margin-top: 0;
+}
+
+.skills-section ul {
+  padding-left: 20px;
+}
+
+.skills-section li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+
+  .skills-section {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-page {
+    padding: 25px 15px;
+  }
+
+}

@@ -1,0 +1,116 @@
+.profile-page {
+  min-height: calc(100vh - 70px);
+  background: #f5f7fb;
+  padding: 40px 20px;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-header {
+  margin-bottom: 25px;
+}
+
+.profile-header h1 {
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.profile-header p {
+  color: #666;
+}
+
+.profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.profile-section {
+  margin-bottom: 30px;
+}
+
+.profile-section h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #222;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.form-group input:disabled {
+  background: #f1f1f1;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group small {
+  display: block;
+  margin-top: 6px;
+  color: #777;
+  font-size: 13px;
+}
+
+.save-profile-button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 7px;
+  background: #222;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.save-profile-button:hover {
+  background: #444;
+}
+
+.profile-message {
+  margin-top: 18px;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+@media (max-width: 700px) {
+
+  .profile-page {
+    padding: 25px 15px;
+  }
+
+  .profile-card {
+    padding: 20px;
+  }
+
+}
